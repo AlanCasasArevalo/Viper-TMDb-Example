@@ -34,6 +34,7 @@
 		51E2ACA0226306C800ECCA58 /* ImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC9F226306C800ECCA58 /* ImageSize.swift */; };
 		51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACA1226306FB00ECCA58 /* ImageManager.swift */; };
 		51E2ACA622631D5000ECCA58 /* WebServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACA522631D4F00ECCA58 /* WebServiceAssembly.swift */; };
+		51E2ACA822631F1D00ECCA58 /* ImageLoadingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACA722631F1D00ECCA58 /* ImageLoadingAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		51E2AC9F226306C800ECCA58 /* ImageSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSize.swift; sourceTree = "<group>"; };
 		51E2ACA1226306FB00ECCA58 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		51E2ACA522631D4F00ECCA58 /* WebServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceAssembly.swift; sourceTree = "<group>"; };
+		51E2ACA722631F1D00ECCA58 /* ImageLoadingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			children = (
 				51E2AC9B2263069900ECCA58 /* ImageConfiguration.swift */,
 				51E2AC9D226306B800ECCA58 /* ImageRepository.swift */,
+				51E2ACA722631F1D00ECCA58 /* ImageLoadingAssembly.swift */,
 				51E2AC9F226306C800ECCA58 /* ImageSize.swift */,
 				51E2ACA1226306FB00ECCA58 /* ImageManager.swift */,
 			);
@@ -337,6 +340,7 @@
 				51E2AC8E2263037A00ECCA58 /* MediaType.swift in Sources */,
 				51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */,
 				51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */,
+				51E2ACA822631F1D00ECCA58 /* ImageLoadingAssembly.swift in Sources */,
 				51E2AC932263042400ECCA58 /* NibLoadableView.swift in Sources */,
 				51E2ACA622631D5000ECCA58 /* WebServiceAssembly.swift in Sources */,
 				51E2AC76226300C400ECCA58 /* WebServiceConfiguration.swift in Sources */,
