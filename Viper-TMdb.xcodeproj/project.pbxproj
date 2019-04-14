@@ -17,6 +17,13 @@
 		51E2AC782263011800ECCA58 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC772263011800ECCA58 /* Endpoint.swift */; };
 		51E2AC7A2263016B00ECCA58 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC792263016B00ECCA58 /* WebServices.swift */; };
 		51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC7C2263019900ECCA58 /* Constants.swift */; };
+		51E2AC82226302EF00ECCA58 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC81226302EF00ECCA58 /* Show.swift */; };
+		51E2AC84226302FF00ECCA58 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC83226302FF00ECCA58 /* Person.swift */; };
+		51E2AC862263031100ECCA58 /* genres.json in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC852263031100ECCA58 /* genres.json */; };
+		51E2AC882263033D00ECCA58 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC872263033D00ECCA58 /* Movie.swift */; };
+		51E2AC8A2263035400ECCA58 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC892263035400ECCA58 /* Genre.swift */; };
+		51E2AC8C2263036A00ECCA58 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC8B2263036A00ECCA58 /* Media.swift */; };
+		51E2AC8E2263037A00ECCA58 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC8D2263037A00ECCA58 /* MediaType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		51E2AC772263011800ECCA58 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		51E2AC792263016B00ECCA58 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		51E2AC7C2263019900ECCA58 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		51E2AC81226302EF00ECCA58 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		51E2AC83226302FF00ECCA58 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		51E2AC852263031100ECCA58 /* genres.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = genres.json; sourceTree = "<group>"; };
+		51E2AC872263033D00ECCA58 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		51E2AC892263035400ECCA58 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		51E2AC8B2263036A00ECCA58 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		51E2AC8D2263037A00ECCA58 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +141,24 @@
 		51E2AC7B2263018900ECCA58 /* COMMON */ = {
 			isa = PBXGroup;
 			children = (
+				51E2AC80226302DD00ECCA58 /* Domain */,
 				51E2AC7C2263019900ECCA58 /* Constants.swift */,
 			);
 			path = COMMON;
+			sourceTree = "<group>";
+		};
+		51E2AC80226302DD00ECCA58 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				51E2AC81226302EF00ECCA58 /* Show.swift */,
+				51E2AC83226302FF00ECCA58 /* Person.swift */,
+				51E2AC852263031100ECCA58 /* genres.json */,
+				51E2AC872263033D00ECCA58 /* Movie.swift */,
+				51E2AC892263035400ECCA58 /* Genre.swift */,
+				51E2AC8B2263036A00ECCA58 /* Media.swift */,
+				51E2AC8D2263037A00ECCA58 /* MediaType.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,11 +283,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */,
+				51E2AC862263031100ECCA58 /* genres.json in Sources */,
 				51E2AC502262FE0600ECCA58 /* AppDelegate.swift in Sources */,
+				51E2AC8A2263035400ECCA58 /* Genre.swift in Sources */,
 				51E2AC7A2263016B00ECCA58 /* WebServices.swift in Sources */,
 				51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */,
+				51E2AC8E2263037A00ECCA58 /* MediaType.swift in Sources */,
 				51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */,
 				51E2AC76226300C400ECCA58 /* WebServiceConfiguration.swift in Sources */,
+				51E2AC84226302FF00ECCA58 /* Person.swift in Sources */,
+				51E2AC82226302EF00ECCA58 /* Show.swift in Sources */,
+				51E2AC8C2263036A00ECCA58 /* Media.swift in Sources */,
+				51E2AC882263033D00ECCA58 /* Movie.swift in Sources */,
 				51E2AC782263011800ECCA58 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
