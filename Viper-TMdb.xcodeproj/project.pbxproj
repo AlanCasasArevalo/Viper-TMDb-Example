@@ -35,6 +35,11 @@
 		51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACA1226306FB00ECCA58 /* ImageManager.swift */; };
 		51E2ACA622631D5000ECCA58 /* WebServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACA522631D4F00ECCA58 /* WebServiceAssembly.swift */; };
 		51E2ACA822631F1D00ECCA58 /* ImageLoadingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACA722631F1D00ECCA58 /* ImageLoadingAssembly.swift */; };
+		51E2ACAB2263211000ECCA58 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACAA2263211000ECCA58 /* GenericViewController.swift */; };
+		51E2ACAD2263211E00ECCA58 /* GenericInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACAC2263211E00ECCA58 /* GenericInteractor.swift */; };
+		51E2ACAF2263213100ECCA58 /* GenericWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACAE2263213100ECCA58 /* GenericWireframe.swift */; };
+		51E2ACB12263214000ECCA58 /* GenericPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACB02263214000ECCA58 /* GenericPresenter.swift */; };
+		51E2ACB32263217100ECCA58 /* GenericAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACB22263217100ECCA58 /* GenericAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,11 @@
 		51E2ACA1226306FB00ECCA58 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		51E2ACA522631D4F00ECCA58 /* WebServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceAssembly.swift; sourceTree = "<group>"; };
 		51E2ACA722631F1D00ECCA58 /* ImageLoadingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingAssembly.swift; sourceTree = "<group>"; };
+		51E2ACAA2263211000ECCA58 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		51E2ACAC2263211E00ECCA58 /* GenericInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericInteractor.swift; sourceTree = "<group>"; };
+		51E2ACAE2263213100ECCA58 /* GenericWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWireframe.swift; sourceTree = "<group>"; };
+		51E2ACB02263214000ECCA58 /* GenericPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPresenter.swift; sourceTree = "<group>"; };
+		51E2ACB22263217100ECCA58 /* GenericAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,7 @@
 				51E2AC562262FE0700ECCA58 /* Assets.xcassets */,
 				51E2AC582262FE0700ECCA58 /* LaunchScreen.storyboard */,
 				51E2AC5B2262FE0700ECCA58 /* Info.plist */,
+				51E2ACA9226320F300ECCA58 /* GENERIC_CLASSES */,
 				51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */,
 				51E2AC9A2263068100ECCA58 /* Image Loading */,
 				51E2AC7B2263018900ECCA58 /* COMMON */,
@@ -208,6 +219,18 @@
 				51E2ACA1226306FB00ECCA58 /* ImageManager.swift */,
 			);
 			path = "Image Loading";
+			sourceTree = "<group>";
+		};
+		51E2ACA9226320F300ECCA58 /* GENERIC_CLASSES */ = {
+			isa = PBXGroup;
+			children = (
+				51E2ACAA2263211000ECCA58 /* GenericViewController.swift */,
+				51E2ACB22263217100ECCA58 /* GenericAssembly.swift */,
+				51E2ACAC2263211E00ECCA58 /* GenericInteractor.swift */,
+				51E2ACAE2263213100ECCA58 /* GenericWireframe.swift */,
+				51E2ACB02263214000ECCA58 /* GenericPresenter.swift */,
+			);
+			path = GENERIC_CLASSES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +357,7 @@
 				51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */,
 				51E2AC862263031100ECCA58 /* genres.json in Sources */,
 				51E2AC502262FE0600ECCA58 /* AppDelegate.swift in Sources */,
+				51E2ACAD2263211E00ECCA58 /* GenericInteractor.swift in Sources */,
 				51E2AC8A2263035400ECCA58 /* Genre.swift in Sources */,
 				51E2AC7A2263016B00ECCA58 /* WebServices.swift in Sources */,
 				51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */,
@@ -341,14 +365,18 @@
 				51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */,
 				51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */,
 				51E2ACA822631F1D00ECCA58 /* ImageLoadingAssembly.swift in Sources */,
+				51E2ACB12263214000ECCA58 /* GenericPresenter.swift in Sources */,
 				51E2AC932263042400ECCA58 /* NibLoadableView.swift in Sources */,
+				51E2ACB32263217100ECCA58 /* GenericAssembly.swift in Sources */,
 				51E2ACA622631D5000ECCA58 /* WebServiceAssembly.swift in Sources */,
 				51E2AC76226300C400ECCA58 /* WebServiceConfiguration.swift in Sources */,
 				51E2AC9C2263069900ECCA58 /* ImageConfiguration.swift in Sources */,
 				51E2AC84226302FF00ECCA58 /* Person.swift in Sources */,
+				51E2ACAF2263213100ECCA58 /* GenericWireframe.swift in Sources */,
 				51E2AC992263046400ECCA58 /* UICollectionView+Reusable.swift in Sources */,
 				51E2AC9E226306B800ECCA58 /* ImageRepository.swift in Sources */,
 				51E2AC952263043300ECCA58 /* ReusableView.swift in Sources */,
+				51E2ACAB2263211000ECCA58 /* GenericViewController.swift in Sources */,
 				51E2AC82226302EF00ECCA58 /* Show.swift in Sources */,
 				51E2ACA0226306C800ECCA58 /* ImageSize.swift in Sources */,
 				51E2AC972263045600ECCA58 /* UITableView+ReusableView.swift in Sources */,
