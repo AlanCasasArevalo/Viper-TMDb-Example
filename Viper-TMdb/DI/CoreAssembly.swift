@@ -9,5 +9,6 @@
 import Foundation
 
 final public class CoreAssembly {
-    
+    private(set) lazy var webServiceAssembly = WebServiceAssembly()
+    private(set) lazy var imageLoadingAssembly = ImageLoadingAssembly(webServiceAssembly: webServiceAssembly)
 }
