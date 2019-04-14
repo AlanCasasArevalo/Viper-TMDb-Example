@@ -13,6 +13,10 @@
 		51E2AC652262FE0700ECCA58 /* Viper_TMdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC642262FE0700ECCA58 /* Viper_TMdbTests.swift */; };
 		51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */; };
 		51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC712262FF2E00ECCA58 /* CoreAssembly.swift */; };
+		51E2AC76226300C400ECCA58 /* WebServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC75226300C400ECCA58 /* WebServiceConfiguration.swift */; };
+		51E2AC782263011800ECCA58 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC772263011800ECCA58 /* Endpoint.swift */; };
+		51E2AC7A2263016B00ECCA58 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC792263016B00ECCA58 /* WebServices.swift */; };
+		51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC7C2263019900ECCA58 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		51E2AC662262FE0700ECCA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		51E2AC712262FF2E00ECCA58 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
+		51E2AC75226300C400ECCA58 /* WebServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceConfiguration.swift; sourceTree = "<group>"; };
+		51E2AC772263011800ECCA58 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		51E2AC792263016B00ECCA58 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		51E2AC7C2263019900ECCA58 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +90,9 @@
 				51E2AC582262FE0700ECCA58 /* LaunchScreen.storyboard */,
 				51E2AC5B2262FE0700ECCA58 /* Info.plist */,
 				51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */,
-				51E2AC712262FF2E00ECCA58 /* CoreAssembly.swift */,
+				51E2AC7B2263018900ECCA58 /* COMMON */,
+				51E2AC74226300A900ECCA58 /* Web Service */,
+				51E2AC732263009500ECCA58 /* DI */,
 			);
 			path = "Viper-TMdb";
 			sourceTree = "<group>";
@@ -96,6 +106,32 @@
 			path = "Viper-TMdbTests";
 			sourceTree = "<group>";
 		};
+		51E2AC732263009500ECCA58 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				51E2AC712262FF2E00ECCA58 /* CoreAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		51E2AC74226300A900ECCA58 /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				51E2AC75226300C400ECCA58 /* WebServiceConfiguration.swift */,
+				51E2AC772263011800ECCA58 /* Endpoint.swift */,
+				51E2AC792263016B00ECCA58 /* WebServices.swift */,
+			);
+			path = "Web Service";
+			sourceTree = "<group>";
+		};
+		51E2AC7B2263018900ECCA58 /* COMMON */ = {
+			isa = PBXGroup;
+			children = (
+				51E2AC7C2263019900ECCA58 /* Constants.swift */,
+			);
+			path = COMMON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +142,7 @@
 				51E2AC482262FE0600ECCA58 /* Sources */,
 				51E2AC492262FE0600ECCA58 /* Frameworks */,
 				51E2AC4A2262FE0600ECCA58 /* Resources */,
+				51E2AC7F2263021900ECCA58 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -191,6 +228,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51E2AC7F2263021900ECCA58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:|WARNING:\"\nERRORTAG=\"ERROR:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"| perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51E2AC482262FE0600ECCA58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -198,7 +255,11 @@
 			files = (
 				51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */,
 				51E2AC502262FE0600ECCA58 /* AppDelegate.swift in Sources */,
+				51E2AC7A2263016B00ECCA58 /* WebServices.swift in Sources */,
 				51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */,
+				51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */,
+				51E2AC76226300C400ECCA58 /* WebServiceConfiguration.swift in Sources */,
+				51E2AC782263011800ECCA58 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
