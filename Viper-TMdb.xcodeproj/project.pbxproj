@@ -11,6 +11,8 @@
 		51E2AC572262FE0700ECCA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E2AC562262FE0700ECCA58 /* Assets.xcassets */; };
 		51E2AC5A2262FE0700ECCA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E2AC582262FE0700ECCA58 /* LaunchScreen.storyboard */; };
 		51E2AC652262FE0700ECCA58 /* Viper_TMdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC642262FE0700ECCA58 /* Viper_TMdbTests.swift */; };
+		51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */; };
+		51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC712262FF2E00ECCA58 /* CoreAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		51E2AC602262FE0700ECCA58 /* Viper-TMdbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viper-TMdbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E2AC642262FE0700ECCA58 /* Viper_TMdbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viper_TMdbTests.swift; sourceTree = "<group>"; };
 		51E2AC662262FE0700ECCA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		51E2AC712262FF2E00ECCA58 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				51E2AC562262FE0700ECCA58 /* Assets.xcassets */,
 				51E2AC582262FE0700ECCA58 /* LaunchScreen.storyboard */,
 				51E2AC5B2262FE0700ECCA58 /* Info.plist */,
+				51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */,
+				51E2AC712262FF2E00ECCA58 /* CoreAssembly.swift */,
 			);
 			path = "Viper-TMdb";
 			sourceTree = "<group>";
@@ -190,7 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */,
 				51E2AC502262FE0600ECCA58 /* AppDelegate.swift in Sources */,
+				51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
