@@ -29,6 +29,10 @@
 		51E2AC952263043300ECCA58 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC942263043300ECCA58 /* ReusableView.swift */; };
 		51E2AC972263045600ECCA58 /* UITableView+ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC962263045600ECCA58 /* UITableView+ReusableView.swift */; };
 		51E2AC992263046400ECCA58 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC982263046400ECCA58 /* UICollectionView+Reusable.swift */; };
+		51E2AC9C2263069900ECCA58 /* ImageConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC9B2263069900ECCA58 /* ImageConfiguration.swift */; };
+		51E2AC9E226306B800ECCA58 /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC9D226306B800ECCA58 /* ImageRepository.swift */; };
+		51E2ACA0226306C800ECCA58 /* ImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC9F226306C800ECCA58 /* ImageSize.swift */; };
+		51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACA1226306FB00ECCA58 /* ImageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		51E2AC942263043300ECCA58 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		51E2AC962263045600ECCA58 /* UITableView+ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableView.swift"; sourceTree = "<group>"; };
 		51E2AC982263046400ECCA58 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		51E2AC9B2263069900ECCA58 /* ImageConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConfiguration.swift; sourceTree = "<group>"; };
+		51E2AC9D226306B800ECCA58 /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		51E2AC9F226306C800ECCA58 /* ImageSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSize.swift; sourceTree = "<group>"; };
+		51E2ACA1226306FB00ECCA58 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 				51E2AC582262FE0700ECCA58 /* LaunchScreen.storyboard */,
 				51E2AC5B2262FE0700ECCA58 /* Info.plist */,
 				51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */,
+				51E2AC9A2263068100ECCA58 /* Image Loading */,
 				51E2AC7B2263018900ECCA58 /* COMMON */,
 				51E2AC74226300A900ECCA58 /* Web Service */,
 				51E2AC732263009500ECCA58 /* DI */,
@@ -182,6 +191,17 @@
 				51E2AC982263046400ECCA58 /* UICollectionView+Reusable.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		51E2AC9A2263068100ECCA58 /* Image Loading */ = {
+			isa = PBXGroup;
+			children = (
+				51E2AC9B2263069900ECCA58 /* ImageConfiguration.swift */,
+				51E2AC9D226306B800ECCA58 /* ImageRepository.swift */,
+				51E2AC9F226306C800ECCA58 /* ImageSize.swift */,
+				51E2ACA1226306FB00ECCA58 /* ImageManager.swift */,
+			);
+			path = "Image Loading";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,12 +333,16 @@
 				51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */,
 				51E2AC8E2263037A00ECCA58 /* MediaType.swift in Sources */,
 				51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */,
+				51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */,
 				51E2AC932263042400ECCA58 /* NibLoadableView.swift in Sources */,
 				51E2AC76226300C400ECCA58 /* WebServiceConfiguration.swift in Sources */,
+				51E2AC9C2263069900ECCA58 /* ImageConfiguration.swift in Sources */,
 				51E2AC84226302FF00ECCA58 /* Person.swift in Sources */,
 				51E2AC992263046400ECCA58 /* UICollectionView+Reusable.swift in Sources */,
+				51E2AC9E226306B800ECCA58 /* ImageRepository.swift in Sources */,
 				51E2AC952263043300ECCA58 /* ReusableView.swift in Sources */,
 				51E2AC82226302EF00ECCA58 /* Show.swift in Sources */,
+				51E2ACA0226306C800ECCA58 /* ImageSize.swift in Sources */,
 				51E2AC972263045600ECCA58 /* UITableView+ReusableView.swift in Sources */,
 				51E2AC8C2263036A00ECCA58 /* Media.swift in Sources */,
 				51E2AC882263033D00ECCA58 /* Movie.swift in Sources */,
