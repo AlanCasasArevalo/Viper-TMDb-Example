@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         appAssembly.window.makeKeyAndVisible()
         appAssembly.window.backgroundColor = UIColor.cyan        
-        appAssembly.window.rootViewController = UIViewController()
+        appAssembly.window.rootViewController = appAssembly.coreAssembly.featuredAssembly.getFeaturedViewController()
      
         return true
     }

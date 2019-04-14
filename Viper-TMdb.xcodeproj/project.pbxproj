@@ -40,6 +40,15 @@
 		51E2ACAF2263213100ECCA58 /* GenericWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACAE2263213100ECCA58 /* GenericWireframe.swift */; };
 		51E2ACB12263214000ECCA58 /* GenericPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACB02263214000ECCA58 /* GenericPresenter.swift */; };
 		51E2ACB32263217100ECCA58 /* GenericAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACB22263217100ECCA58 /* GenericAssembly.swift */; };
+		51E2ACBA2263226600ECCA58 /* FeaturedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACB92263226600ECCA58 /* FeaturedRepository.swift */; };
+		51E2ACBF226323E200ECCA58 /* FeaturedPresenterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */; };
+		51E2ACC1226323F900ECCA58 /* FeaturedProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC0226323F900ECCA58 /* FeaturedProtocols.swift */; };
+		51E2ACC42263252200ECCA58 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */; };
+		51E2ACC52263252200ECCA58 /* FeaturedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51E2ACC32263252200ECCA58 /* FeaturedViewController.xib */; };
+		51E2ACC72263268D00ECCA58 /* FeaturedIntereactorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC62263268D00ECCA58 /* FeaturedIntereactorImplementation.swift */; };
+		51E2ACC9226328A400ECCA58 /* FeaturedWireframeImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC8226328A400ECCA58 /* FeaturedWireframeImplementation.swift */; };
+		51E2ACCB226328CD00ECCA58 /* FeaturedAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACCA226328CD00ECCA58 /* FeaturedAssembly.swift */; };
+		51E2ACCD22632C4100ECCA58 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACCC22632C4100ECCA58 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +99,15 @@
 		51E2ACAE2263213100ECCA58 /* GenericWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWireframe.swift; sourceTree = "<group>"; };
 		51E2ACB02263214000ECCA58 /* GenericPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericPresenter.swift; sourceTree = "<group>"; };
 		51E2ACB22263217100ECCA58 /* GenericAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAssembly.swift; sourceTree = "<group>"; };
+		51E2ACB92263226600ECCA58 /* FeaturedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedRepository.swift; sourceTree = "<group>"; };
+		51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPresenterImplementation.swift; sourceTree = "<group>"; };
+		51E2ACC0226323F900ECCA58 /* FeaturedProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedProtocols.swift; sourceTree = "<group>"; };
+		51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		51E2ACC32263252200ECCA58 /* FeaturedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedViewController.xib; sourceTree = "<group>"; };
+		51E2ACC62263268D00ECCA58 /* FeaturedIntereactorImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedIntereactorImplementation.swift; sourceTree = "<group>"; };
+		51E2ACC8226328A400ECCA58 /* FeaturedWireframeImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedWireframeImplementation.swift; sourceTree = "<group>"; };
+		51E2ACCA226328CD00ECCA58 /* FeaturedAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAssembly.swift; sourceTree = "<group>"; };
+		51E2ACCC22632C4100ECCA58 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +153,7 @@
 				51E2AC562262FE0700ECCA58 /* Assets.xcassets */,
 				51E2AC582262FE0700ECCA58 /* LaunchScreen.storyboard */,
 				51E2AC5B2262FE0700ECCA58 /* Info.plist */,
+				51E2ACB42263220800ECCA58 /* Featured */,
 				51E2ACA9226320F300ECCA58 /* GENERIC_CLASSES */,
 				51E2AC6F2262FF2500ECCA58 /* AppAssembly.swift */,
 				51E2AC9A2263068100ECCA58 /* Image Loading */,
@@ -188,6 +207,7 @@
 			children = (
 				51E2AC81226302EF00ECCA58 /* Show.swift */,
 				51E2AC83226302FF00ECCA58 /* Person.swift */,
+				51E2ACCC22632C4100ECCA58 /* Page.swift */,
 				51E2AC852263031100ECCA58 /* genres.json */,
 				51E2AC872263033D00ECCA58 /* Movie.swift */,
 				51E2AC892263035400ECCA58 /* Genre.swift */,
@@ -231,6 +251,37 @@
 				51E2ACB02263214000ECCA58 /* GenericPresenter.swift */,
 			);
 			path = GENERIC_CLASSES;
+			sourceTree = "<group>";
+		};
+		51E2ACB42263220800ECCA58 /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				51E2ACBB2263239500ECCA58 /* DI */,
+				51E2ACB82263225600ECCA58 /* Respository */,
+				51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */,
+				51E2ACC0226323F900ECCA58 /* FeaturedProtocols.swift */,
+				51E2ACC62263268D00ECCA58 /* FeaturedIntereactorImplementation.swift */,
+				51E2ACC8226328A400ECCA58 /* FeaturedWireframeImplementation.swift */,
+				51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */,
+				51E2ACC32263252200ECCA58 /* FeaturedViewController.xib */,
+			);
+			path = Featured;
+			sourceTree = "<group>";
+		};
+		51E2ACB82263225600ECCA58 /* Respository */ = {
+			isa = PBXGroup;
+			children = (
+				51E2ACB92263226600ECCA58 /* FeaturedRepository.swift */,
+			);
+			path = Respository;
+			sourceTree = "<group>";
+		};
+		51E2ACBB2263239500ECCA58 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				51E2ACCA226328CD00ECCA58 /* FeaturedAssembly.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +368,7 @@
 			files = (
 				51E2AC5A2262FE0700ECCA58 /* LaunchScreen.storyboard in Resources */,
 				51E2AC572262FE0700ECCA58 /* Assets.xcassets in Resources */,
+				51E2ACC52263252200ECCA58 /* FeaturedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,14 +406,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E2ACC72263268D00ECCA58 /* FeaturedIntereactorImplementation.swift in Sources */,
 				51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */,
+				51E2ACC1226323F900ECCA58 /* FeaturedProtocols.swift in Sources */,
 				51E2AC862263031100ECCA58 /* genres.json in Sources */,
 				51E2AC502262FE0600ECCA58 /* AppDelegate.swift in Sources */,
 				51E2ACAD2263211E00ECCA58 /* GenericInteractor.swift in Sources */,
+				51E2ACBF226323E200ECCA58 /* FeaturedPresenterImplementation.swift in Sources */,
 				51E2AC8A2263035400ECCA58 /* Genre.swift in Sources */,
+				51E2ACBA2263226600ECCA58 /* FeaturedRepository.swift in Sources */,
 				51E2AC7A2263016B00ECCA58 /* WebServices.swift in Sources */,
 				51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */,
 				51E2AC8E2263037A00ECCA58 /* MediaType.swift in Sources */,
+				51E2ACCD22632C4100ECCA58 /* Page.swift in Sources */,
 				51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */,
 				51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */,
 				51E2ACA822631F1D00ECCA58 /* ImageLoadingAssembly.swift in Sources */,
@@ -374,13 +431,16 @@
 				51E2AC84226302FF00ECCA58 /* Person.swift in Sources */,
 				51E2ACAF2263213100ECCA58 /* GenericWireframe.swift in Sources */,
 				51E2AC992263046400ECCA58 /* UICollectionView+Reusable.swift in Sources */,
+				51E2ACC9226328A400ECCA58 /* FeaturedWireframeImplementation.swift in Sources */,
 				51E2AC9E226306B800ECCA58 /* ImageRepository.swift in Sources */,
+				51E2ACC42263252200ECCA58 /* FeaturedViewController.swift in Sources */,
 				51E2AC952263043300ECCA58 /* ReusableView.swift in Sources */,
 				51E2ACAB2263211000ECCA58 /* GenericViewController.swift in Sources */,
 				51E2AC82226302EF00ECCA58 /* Show.swift in Sources */,
 				51E2ACA0226306C800ECCA58 /* ImageSize.swift in Sources */,
 				51E2AC972263045600ECCA58 /* UITableView+ReusableView.swift in Sources */,
 				51E2AC8C2263036A00ECCA58 /* Media.swift in Sources */,
+				51E2ACCB226328CD00ECCA58 /* FeaturedAssembly.swift in Sources */,
 				51E2AC882263033D00ECCA58 /* Movie.swift in Sources */,
 				51E2AC782263011800ECCA58 /* Endpoint.swift in Sources */,
 				51E2AC912263040F00ECCA58 /* Date+Utilities.swift in Sources */,

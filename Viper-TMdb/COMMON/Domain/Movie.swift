@@ -9,8 +9,8 @@
 import Foundation
 
 struct Movie: Decodable {
-    let identifier: Int64
-    let title: String
+    let identifier: Int64?
+    let title: String?
     let posterPath: String?
     let backdropPath: String?
     let releaseDate: String?

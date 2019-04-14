@@ -14,6 +14,7 @@ private enum HTTPMethod: String {
 
 internal enum Endpoint {
     case configuration
+    case moviesNowPlaying(region: String, page: Int)
 }
 
 internal extension Endpoint {
@@ -40,6 +41,8 @@ private extension Endpoint {
         switch self {
         case .configuration:
             return "configuration"
+        case .moviesNowPlaying:
+            return "movie/now_playing"
         }
     }
     
@@ -47,6 +50,11 @@ private extension Endpoint {
         switch self {
         case .configuration:
             return [:]
+        case .moviesNowPlaying(let region, let page):
+            return [
+                "language": region,
+                "page": String(page)
+            ]
         }
     }
     
