@@ -1,0 +1,27 @@
+//
+//  Show.swift
+//  Viper-TMdb
+//
+//  Created by Alan Casas on 14/04/2019.
+//  Copyright © 2019 Alan Casas. All rights reserved.
+//
+
+import Foundation
+
+struct Show: Decodable {
+    let identifier: Int64
+    let title: String
+    let posterPath: String?
+    let backdropPath: String?
+    let firstAirDate: String?
+    let genreIdentifiers: [Int]?
+    
+    enum CodingKeys: String, CodingKey {
+        case identifier = "id"
+        case title = "name"
+        case posterPath = "poster_path"
+        case backdropPath = "backdrop_path"
+        case firstAirDate = "first_air_date"
+        case genreIdentifiers = "genre_ids"
+    }
+}
