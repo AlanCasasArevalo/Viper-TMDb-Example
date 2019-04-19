@@ -11,7 +11,7 @@ import UIKit
 final public class CoreAssembly {
     private(set) lazy var webServiceAssembly = WebServiceAssembly()
     private(set) lazy var imageLoadingAssembly = ImageLoadingAssembly(webServiceAssembly: webServiceAssembly)
-    private(set) lazy var featuredAssembly = FeaturedAssembly(webServiceAssembly: webServiceAssembly)
+    private(set) lazy var featuredAssembly = FeaturedAssembly(webServiceAssembly: webServiceAssembly, imageLoadingAssembly: imageLoadingAssembly)
     
     private let navigationController: UINavigationController
     

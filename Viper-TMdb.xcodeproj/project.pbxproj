@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51A954D1226A22150065B29E /* FeaturedCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A954D0226A22150065B29E /* FeaturedCollectionViewLayout.swift */; };
 		51E2AC502262FE0600ECCA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2AC4F2262FE0600ECCA58 /* AppDelegate.swift */; };
 		51E2AC572262FE0700ECCA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E2AC562262FE0700ECCA58 /* Assets.xcassets */; };
 		51E2AC5A2262FE0700ECCA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E2AC582262FE0700ECCA58 /* LaunchScreen.storyboard */; };
@@ -42,13 +43,16 @@
 		51E2ACB32263217100ECCA58 /* GenericAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACB22263217100ECCA58 /* GenericAssembly.swift */; };
 		51E2ACBA2263226600ECCA58 /* FeaturedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACB92263226600ECCA58 /* FeaturedRepository.swift */; };
 		51E2ACBF226323E200ECCA58 /* FeaturedPresenterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */; };
-		51E2ACC1226323F900ECCA58 /* FeaturedProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC0226323F900ECCA58 /* FeaturedProtocols.swift */; };
 		51E2ACC42263252200ECCA58 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */; };
 		51E2ACC52263252200ECCA58 /* FeaturedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51E2ACC32263252200ECCA58 /* FeaturedViewController.xib */; };
 		51E2ACC72263268D00ECCA58 /* FeaturedIntereactorImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC62263268D00ECCA58 /* FeaturedIntereactorImplementation.swift */; };
 		51E2ACC9226328A400ECCA58 /* FeaturedWireframeImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACC8226328A400ECCA58 /* FeaturedWireframeImplementation.swift */; };
 		51E2ACCB226328CD00ECCA58 /* FeaturedAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACCA226328CD00ECCA58 /* FeaturedAssembly.swift */; };
 		51E2ACCD22632C4100ECCA58 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E2ACCC22632C4100ECCA58 /* Page.swift */; };
+		51FF65922269B89200F1F3C0 /* ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FF65912269B89200F1F3C0 /* ReuseIdentifier.swift */; };
+		51FF65992269D41500F1F3C0 /* FeaturedCellPresenterImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FF65982269D41500F1F3C0 /* FeaturedCellPresenterImplementation.swift */; };
+		51FF659C2269D52700F1F3C0 /* FeaturedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FF659A2269D52700F1F3C0 /* FeaturedViewCell.swift */; };
+		51FF659D2269D52700F1F3C0 /* FeaturedViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51FF659B2269D52700F1F3C0 /* FeaturedViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51A954D0226A22150065B29E /* FeaturedCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionViewLayout.swift; sourceTree = "<group>"; };
 		51E2AC4C2262FE0600ECCA58 /* Viper-TMdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-TMdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E2AC4F2262FE0600ECCA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51E2AC562262FE0700ECCA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,13 +106,16 @@
 		51E2ACB22263217100ECCA58 /* GenericAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAssembly.swift; sourceTree = "<group>"; };
 		51E2ACB92263226600ECCA58 /* FeaturedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedRepository.swift; sourceTree = "<group>"; };
 		51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPresenterImplementation.swift; sourceTree = "<group>"; };
-		51E2ACC0226323F900ECCA58 /* FeaturedProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedProtocols.swift; sourceTree = "<group>"; };
 		51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		51E2ACC32263252200ECCA58 /* FeaturedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedViewController.xib; sourceTree = "<group>"; };
 		51E2ACC62263268D00ECCA58 /* FeaturedIntereactorImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedIntereactorImplementation.swift; sourceTree = "<group>"; };
 		51E2ACC8226328A400ECCA58 /* FeaturedWireframeImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedWireframeImplementation.swift; sourceTree = "<group>"; };
 		51E2ACCA226328CD00ECCA58 /* FeaturedAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAssembly.swift; sourceTree = "<group>"; };
 		51E2ACCC22632C4100ECCA58 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		51FF65912269B89200F1F3C0 /* ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifier.swift; sourceTree = "<group>"; };
+		51FF65982269D41500F1F3C0 /* FeaturedCellPresenterImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCellPresenterImplementation.swift; sourceTree = "<group>"; };
+		51FF659A2269D52700F1F3C0 /* FeaturedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewCell.swift; sourceTree = "<group>"; };
+		51FF659B2269D52700F1F3C0 /* FeaturedViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +206,7 @@
 				51E2AC8F226303FC00ECCA58 /* Utilities */,
 				51E2AC80226302DD00ECCA58 /* Domain */,
 				51E2AC7C2263019900ECCA58 /* Constants.swift */,
+				51FF65912269B89200F1F3C0 /* ReuseIdentifier.swift */,
 			);
 			path = COMMON;
 			sourceTree = "<group>";
@@ -258,12 +267,12 @@
 			children = (
 				51E2ACBB2263239500ECCA58 /* DI */,
 				51E2ACB82263225600ECCA58 /* Respository */,
-				51E2ACC0226323F900ECCA58 /* FeaturedProtocols.swift */,
 				51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */,
+				51FF65982269D41500F1F3C0 /* FeaturedCellPresenterImplementation.swift */,
 				51E2ACC62263268D00ECCA58 /* FeaturedIntereactorImplementation.swift */,
 				51E2ACC8226328A400ECCA58 /* FeaturedWireframeImplementation.swift */,
-				51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */,
-				51E2ACC32263252200ECCA58 /* FeaturedViewController.xib */,
+				51A954D0226A22150065B29E /* FeaturedCollectionViewLayout.swift */,
+				51FF65972269D3A200F1F3C0 /* View */,
 			);
 			path = Featured;
 			sourceTree = "<group>";
@@ -282,6 +291,17 @@
 				51E2ACCA226328CD00ECCA58 /* FeaturedAssembly.swift */,
 			);
 			path = DI;
+			sourceTree = "<group>";
+		};
+		51FF65972269D3A200F1F3C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51FF659A2269D52700F1F3C0 /* FeaturedViewCell.swift */,
+				51FF659B2269D52700F1F3C0 /* FeaturedViewCell.xib */,
+				51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */,
+				51E2ACC32263252200ECCA58 /* FeaturedViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +388,7 @@
 			files = (
 				51E2AC5A2262FE0700ECCA58 /* LaunchScreen.storyboard in Resources */,
 				51E2AC572262FE0700ECCA58 /* Assets.xcassets in Resources */,
+				51FF659D2269D52700F1F3C0 /* FeaturedViewCell.xib in Resources */,
 				51E2ACC52263252200ECCA58 /* FeaturedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,10 +429,10 @@
 			files = (
 				51E2ACC72263268D00ECCA58 /* FeaturedIntereactorImplementation.swift in Sources */,
 				51E2AC722262FF2E00ECCA58 /* CoreAssembly.swift in Sources */,
-				51E2ACC1226323F900ECCA58 /* FeaturedProtocols.swift in Sources */,
 				51E2AC862263031100ECCA58 /* genres.json in Sources */,
 				51E2AC502262FE0600ECCA58 /* AppDelegate.swift in Sources */,
 				51E2ACAD2263211E00ECCA58 /* GenericInteractor.swift in Sources */,
+				51FF65992269D41500F1F3C0 /* FeaturedCellPresenterImplementation.swift in Sources */,
 				51E2ACBF226323E200ECCA58 /* FeaturedPresenterImplementation.swift in Sources */,
 				51E2AC8A2263035400ECCA58 /* Genre.swift in Sources */,
 				51E2ACBA2263226600ECCA58 /* FeaturedRepository.swift in Sources */,
@@ -419,6 +440,7 @@
 				51E2AC702262FF2500ECCA58 /* AppAssembly.swift in Sources */,
 				51E2AC8E2263037A00ECCA58 /* MediaType.swift in Sources */,
 				51E2ACCD22632C4100ECCA58 /* Page.swift in Sources */,
+				51FF659C2269D52700F1F3C0 /* FeaturedViewCell.swift in Sources */,
 				51E2AC7D2263019900ECCA58 /* Constants.swift in Sources */,
 				51E2ACA2226306FB00ECCA58 /* ImageManager.swift in Sources */,
 				51E2ACA822631F1D00ECCA58 /* ImageLoadingAssembly.swift in Sources */,
@@ -428,6 +450,7 @@
 				51E2ACA622631D5000ECCA58 /* WebServiceAssembly.swift in Sources */,
 				51E2AC76226300C400ECCA58 /* WebServiceConfiguration.swift in Sources */,
 				51E2AC9C2263069900ECCA58 /* ImageConfiguration.swift in Sources */,
+				51A954D1226A22150065B29E /* FeaturedCollectionViewLayout.swift in Sources */,
 				51E2AC84226302FF00ECCA58 /* Person.swift in Sources */,
 				51E2ACAF2263213100ECCA58 /* GenericWireframe.swift in Sources */,
 				51E2AC992263046400ECCA58 /* UICollectionView+Reusable.swift in Sources */,
@@ -440,6 +463,7 @@
 				51E2ACA0226306C800ECCA58 /* ImageSize.swift in Sources */,
 				51E2AC972263045600ECCA58 /* UITableView+ReusableView.swift in Sources */,
 				51E2AC8C2263036A00ECCA58 /* Media.swift in Sources */,
+				51FF65922269B89200F1F3C0 /* ReuseIdentifier.swift in Sources */,
 				51E2ACCB226328CD00ECCA58 /* FeaturedAssembly.swift in Sources */,
 				51E2AC882263033D00ECCA58 /* Movie.swift in Sources */,
 				51E2AC782263011800ECCA58 /* Endpoint.swift in Sources */,

@@ -10,13 +10,15 @@ import Foundation
 
 final class FeaturedAssembly {
     private let webServiceAssembly: WebServiceAssembly
-    
-    init(webServiceAssembly : WebServiceAssembly) {
+    private let imageLoadingAssembly: ImageLoadingAssembly
+
+    init(webServiceAssembly : WebServiceAssembly, imageLoadingAssembly: ImageLoadingAssembly) {
         self.webServiceAssembly = webServiceAssembly
+        self.imageLoadingAssembly = imageLoadingAssembly
     }
     
     func getFeaturedViewController () -> FeaturedViewController {
-        let viewController = FeaturedViewController(nibName: "FeaturedViewController", bundle: nil)
+        let viewController = FeaturedViewController(featuredCellPresenter: getFeaturedCellPresenter())
         viewController.presenter = getFeaturedPresenter(viewController: viewController)
         return viewController
     }
@@ -42,6 +44,12 @@ final class FeaturedAssembly {
     func getFeaturedRepository () -> FeaturedRepositoryProtocol {
         let featuredRepository = FeaturedRepositoryImplementation(webserviceAssembly: webServiceAssembly)
         return featuredRepository
+    }
+    
+    func getFeaturedCellPresenter () -> FeaturedCellPresenterProtocol {
+        let featuredCellPresenter = FeaturedCellPresenterImplementation(imageRepositoryProtocol: imageLoadingAssembly.image, dateFormatter: webServiceAssembly.dateFormatter)
+        
+        return featuredCellPresenter
     }
     
 }

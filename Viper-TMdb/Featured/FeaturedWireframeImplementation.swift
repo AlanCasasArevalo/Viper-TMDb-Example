@@ -8,6 +8,11 @@
 
 import Foundation
 
+protocol FeaturedWireframeProtocol: class {
+    
+}
+
+
 class FeaturedWireframeImplementation : GenericWireframe <FeaturedViewController, FeaturedPresenterProtocol,  FeaturedInteractorProtocol>, FeaturedWireframeProtocol {
     
 }

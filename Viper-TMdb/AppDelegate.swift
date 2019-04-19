@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let initialVC = appAssembly.coreAssembly.featuredAssembly.getFeaturedViewController()
         appAssembly.window.makeKeyAndVisible()
         appAssembly.navigationController.pushViewController(initialVC, animated: false)
-        appAssembly.window.rootViewController = appAssembly.coreAssembly.featuredAssembly.getFeaturedViewController()
+        appAssembly.window.rootViewController = appAssembly.navigationController
      
         return true
     }

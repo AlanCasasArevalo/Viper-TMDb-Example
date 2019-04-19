@@ -8,6 +8,11 @@
 
 import Foundation
 
+protocol FeaturedInteractorProtocol: class {
+    var webServiceAssembly: WebServiceAssembly? { get }
+    func getDataFromInteractor(region: String, offset: Int, completion : @escaping ([Movie]?) -> () )
+}
+
 class FeaturedIntereactorImplementation: GenericInteractor<FeaturedPresenterProtocol>, FeaturedInteractorProtocol {
     var webServiceAssembly: WebServiceAssembly?
     var featuredRepositoryProtocol: FeaturedRepositoryProtocol?
