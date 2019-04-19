@@ -15,8 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        let initialVC = appAssembly.coreAssembly.featuredAssembly.getFeaturedViewController()
         appAssembly.window.makeKeyAndVisible()
-        appAssembly.window.backgroundColor = UIColor.cyan        
+        appAssembly.navigationController.pushViewController(initialVC, animated: false)
         appAssembly.window.rootViewController = appAssembly.coreAssembly.featuredAssembly.getFeaturedViewController()
      
         return true

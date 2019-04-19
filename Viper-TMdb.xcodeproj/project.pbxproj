@@ -258,8 +258,8 @@
 			children = (
 				51E2ACBB2263239500ECCA58 /* DI */,
 				51E2ACB82263225600ECCA58 /* Respository */,
-				51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */,
 				51E2ACC0226323F900ECCA58 /* FeaturedProtocols.swift */,
+				51E2ACBE226323E200ECCA58 /* FeaturedPresenterImplementation.swift */,
 				51E2ACC62263268D00ECCA58 /* FeaturedIntereactorImplementation.swift */,
 				51E2ACC8226328A400ECCA58 /* FeaturedWireframeImplementation.swift */,
 				51E2ACC22263252200ECCA58 /* FeaturedViewController.swift */,
